@@ -3,4 +3,4 @@
 
 自定义时间轴
 
-![image](http://github.com/zlisa/TimeLineView/raw/master/images/Screenshot01.png)
+![image](https://github.com/zlisa/TimeLineView/raw/master/images/Screenshot01.png)
