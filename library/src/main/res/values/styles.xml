@@ -1,0 +1,12 @@
+<resources>
+
+    <declare-styleable name="TimeLineView">
+        <attr name="rely" format="reference" />
+        <attr name="is_marked" format="boolean" />
+        <attr name="color" format="color" />
+        <attr name="second_color" format="color" />
+        <attr name="mark_radius" format="dimension" />
+        <attr name="line_width" format="dimension" />
+        <attr name="line_padding" format="dimension" />
+    </declare-styleable>
+</resources>
