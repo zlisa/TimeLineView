@@ -1,11 +1,22 @@
 # TimeLineView
 [![](https://www.jitpack.io/v/zlisa/TimeLineView.svg)](https://www.jitpack.io/#zlisa/TimeLineView)
 
-自定义时间轴
+> 自定义时间轴
 
+Mark和依赖者水平对齐：
+```
+app:rely="@id/xx"
+```
+隐藏头线和尾线：
+```
+hideStartLine(boolean)
+hideEndLine(boolean)
+```
 ![image](https://github.com/zlisa/TimeLineView/raw/master/images/Screenshot01.png)
 
-自定义属性
+> 自定义属性
+
+```
     <declare-styleable name="TimeLineView">
         <!--被依赖者-->
         <attr name="rely" format="reference" />
@@ -22,3 +33,4 @@
         <!--连接线和标记间隔-->
         <attr name="line_padding" format="dimension" />
     </declare-styleable>
+```
